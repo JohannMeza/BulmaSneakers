@@ -1,0 +1,13 @@
+$primary: #FF7D1B;
+$dark: #202126;
+
+
+@import '../../node_modules/bulma/bulma.sass';
+@import '../../node_modules/bulma/sass/utilities/mixins.sass';
+
+@include desktop () {
+.btn-mobile {
+    visibility: hidden;
+    width: 0
+  }
+}

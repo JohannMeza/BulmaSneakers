@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulma Page</title>
+  <!-- <link rel="stylesheet" href="./css/app.css"> -->
+  <link rel="stylesheet" href="./css/dist.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand is-justify-content-space-between">
+      <div class="is-flex">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="./images/logo.svg" width="112" height="28">
+        </a>
+      </div>
+      
+      <div class="is-flex btn-mobile">
+        <a role="button" class="navbar-burger is-flex is-justify-content-center is-align-items-center" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+
+        <div role="button" class="navbar-item">
+          <img src="./images/image-avatar.png" alt="Avatar" class="image is-24x24">
+        </div>
+      </div>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          Collections
+        </a>
+
+        <a class="navbar-item">
+          Men
+        </a>
+
+        <a class="navbar-item">
+          Women
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="is-flex">
+            <a role="button" class="navbar-burger is-flex is-justify-content-center is-align-items-center" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+    
+            <div role="button" class="navbar-item">
+              <img src="./images/image-avatar.png" alt="Avatar" class="image is-24x24">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="slider">
+    <img src="./images/image-product-1.jpg" alt="Slider" class="slider-image">
+  </div>
+
+  <main class="container mt-4">
+    <span class="is-size-6 has-text-primary">SNEAKER COMPANY</span>
+    <h1 class="has-text-weight-bold is-size-3 has-text-dark">Fall Limited Edition Sneakers</h1>
+    <p class="mt-3">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+
+    <div>
+      <div class="is-flex is-justify-content-space-between is-align-items-center my-5">
+        <div>
+          <span class="has-text-weight-bold is-size-4 has-text-dark">$125.00</span>
+          <span class="discount has-text-weight-bold has-text-primary p-2 rounded-5 ml-3">50%</span>
+        </div>
+  
+        <div>
+          <span class="has-text-grey">$250.00</span>
+        </div>
+      </div>
+
+      <div class="is-flex control is-justify-content-space-evenly has-background-white-ter rounded-5">
+        <button class="has-text-centered is-medium is-flex-grow-1 button has-background-white-ter has-text-weight-bold has-text-primary">-</button>
+        <button class="has-text-centered is-medium is-flex-grow-1 button has-background-white-ter has-text-weight-bold has-text-dark">0</button>
+        <button class="has-text-centered is-medium is-flex-grow-1 button has-background-white-ter has-text-weight-bold has-text-primary">+</button>
+      </div>
+
+      <button class="button is-primary mt-4">
+        <span class="mr-3"><i class="fas fa-shopping-cart"></i></span>
+         Add to card
+      </button>
+    </div>
+  </main>
+</body>
+</html>
